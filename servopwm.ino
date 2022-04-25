@@ -1,13 +1,11 @@
 /* ESP32 Servo Sweep */
-const int servoPin = 13;  /* GPIO16 */
+const int servoPin = 13;  /* GPIO13 */
 
 int dutyCycle = 0;
 
-/* Setting PWM properties */
 const int PWMFreq = 50;
 const int PWMChannel = 0;
 const int PWMResolution = 8;
-//const int MAX_DUTY_CYCLE = (int)(pow(2, PWMResolution) - 1);
 
 void setup()
 {  
